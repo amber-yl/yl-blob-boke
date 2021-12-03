@@ -4,7 +4,7 @@ export default function IndexPage() {
   console.log("----",API_PREFIX);
   return (
     <div>
-      <h1 className={styles.title}>Page index</h1>
+      <h1 className={styles.title}>Login页面</h1>
     </div>
   );
 }
