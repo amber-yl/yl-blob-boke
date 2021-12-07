@@ -1,6 +1,6 @@
 import styles from './index.less';
 
-export default function IndexPage() {
+export default function HomePage() {
   console.log("----",API_PREFIX);
   return (
     <div>
