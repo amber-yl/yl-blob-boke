@@ -12,11 +12,16 @@ export default defineConfig({
   title: 'yl博客',
   hash: true,
   dll: false,
-  dva: {skipModelValidate: true},
+  dva: {
+    skipModelValidate: true,
+    immer: true,
+    hmr: false
+  },
   routes: routes,
   targets: {
     chrome: 60,
   },
+  mfsu: {},
   define: {
     API_PREFIX: '/api',
   },

@@ -3,7 +3,6 @@ const IndexModel = {
   state: {
     name: '',
   },
-
   effects: {},
   reducers: {},
   subscriptions: {},

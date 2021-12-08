@@ -1,3 +1,3 @@
 import { UmiComponentProps } from '@/common/type';
 
-export default ({ children }: UmiComponentProps) => children;
+export default ({ children }: UmiComponentProps) => <h1>PublicLayout{children}</h1>;
