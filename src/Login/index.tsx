@@ -53,7 +53,7 @@ const Login = (props: Props) => {
 
         <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
           <Button type="primary" htmlType="submit">
-            登录
+            登录-Login-6-Home
           </Button>
         </Form.Item>
       </Form>
