@@ -13,7 +13,7 @@ export default function HomePage(props: Props) {
   console.log('Props: ', props);
   return (
     <div>
-      <h1 className={styles.title}>Hello World!</h1>
+      <h1 className={styles.title}>测试git提交环境，以及代码规范性检测</h1>
     </div>
   );
 }
